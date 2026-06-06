@@ -1,0 +1,36 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
+
+# Editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.suo
+*.user
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env files — never commit your API keys
+.env
+.env.local
+.env.*.local
+config.local.js
+
+# Node (if anyone adds a server layer)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output (if anyone compiles)
+dist/
+build/
+.cache/
+
+# Local storage exports / user data
+*.nexus-backup
+user-data/
