@@ -156,9 +156,9 @@ Settings → Owner Callsign. Shows up in Oracle's greeting and boot sequence.
 ## Default PIN
 `1234` — change it in Settings immediately.
 
----
+----
 
-## License
+
 
 MIT — use it, fork it, build on it. Credit appreciated but not required.
 
