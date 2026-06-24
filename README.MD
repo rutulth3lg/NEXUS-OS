@@ -41,7 +41,7 @@ git clone https://github.com/YOURUSERNAME/nexus-os.git
 cd nexus-os
 open index.html
 ```
-That's it. No npm, no build, no server needed for most features.
+That's about it.
 
 > Note: Voice input requires HTTPS or localhost in Chrome. For full functionality, serve locally.
 
