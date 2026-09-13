@@ -1,26 +1,26 @@
 # NEXUS OS
 
-a single-file browser OS. dark theme, everything works, no build tools. open `index.html` and go.
+A single-file browser OS. Dark theme, everything works, no build tools. Open `index.html` and go.
 
-inspired by arkham games + iron man HUD. built to actually be usable, not just a demo.
+Inspired by Arkham games + Iron Man HUD. Built to actually be usable, not just a demo.
 
 ---
 
-## what's in it
+## What's In It
 
-| module | what it does |
+| Module | What it does |
 |--------|-------------|
-| **Oracle AI** | groq API — llama-3.3-70b, ~145 tok/s. voice in + TTS out |
-| **Music** | youtube iframe API. real playback, progress bar, shuffle/repeat |
-| **Code Editor** | multi-file, line numbers, syntax highlighting, terminal, run button |
-| **System Monitor** | live CPU/RAM sparklines, network stats, audio waveform |
-| **Notes** | persistent (localStorage), formatting toolbar, word count |
-| **Intel Feed** | weather (open-meteo API, real data), event log |
+| **Oracle AI** | Groq API — LLaMA-3.3-70B, ~145 tok/s. Voice in + TTS out |
+| **Music** | YouTube IFrame API. Real playback, progress bar, shuffle/repeat |
+| **Code Editor** | Multi-file, line numbers, syntax highlighting, terminal, run button |
+| **System Monitor** | Live CPU/RAM sparklines, network stats, audio waveform |
+| **Notes** | Persistent (localStorage), formatting toolbar, word count |
+| **Intel Feed** | Weather (Open-Meteo API, real data), event log |
 | **Lock Screen** | PIN pad with auto-lock timer |
-| **Radar** | animated tactical radar with bat symbol. because why not |
-| **Voice** | web speech API — speak commands, oracle replies out loud |
+| **Radar** | Animated tactical radar with bat symbol |
+| **Voice** | Web Speech API — speak commands, Oracle replies out loud |
 
-## setup
+## Setup
 
 ```bash
 git clone https://github.com/rutulth3lg/NEXUS-OS.git
@@ -28,20 +28,20 @@ cd NEXUS-OS
 open index.html
 ```
 
-that's it. voice input needs HTTPS or localhost in chrome, so for full features:
+That's it. Voice input needs HTTPS or localhost in Chrome, so for full features:
 
 ```bash
 python3 -m http.server 8080
-# open http://localhost:8080
+# Open http://localhost:8080
 ```
 
-### groq key (for oracle AI)
+### Groq Key (for Oracle AI)
 
-1. free key at [console.groq.com](https://console.groq.com)
-2. open NEXUS → Settings (key `9`)
-3. paste key → **SAVE ALL SETTINGS**
+1. Free key at [console.groq.com](https://console.groq.com)
+2. Open NEXUS → Settings (key `9`)
+3. Paste key → **SAVE ALL SETTINGS**
 
-or edit directly:
+Or edit directly:
 ```js
 const CFG = {
   groqKey: 'gsk_YOUR_KEY',
@@ -51,6 +51,6 @@ const CFG = {
 };
 ```
 
-## tech
+## Tech
 
-single HTML file · groq API · youtube iframe API · web speech API · open-meteo API · localStorage
+Single HTML file · Groq API · YouTube IFrame API · Web Speech API · Open-Meteo API · localStorage
